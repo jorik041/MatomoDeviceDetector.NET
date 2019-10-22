@@ -1,6 +1,2 @@
 language: csharp
 solution: MatomoDeviceDetector.NET.sln
-install:
-  - nuget restore MatomoDeviceDetector.NET.sln
-script: 
-  - xbuild /p:Configuration=Release MatomoDeviceDetector.NET.sln
