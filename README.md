@@ -1,6 +1,9 @@
 ﻿MatomoDeviceDetector.NET
 ==============
 
+[![Build status](https://travis-ci.org/AgileFlexAgency/MatomoDeviceDetector.NET.svg?branch=master)](https://travis-ci.org/AgileFlexAgency/MatomoDeviceDetector.NET)
+[![NuGet](https://img.shields.io/nuget/v/MatomoDeviceDetector.NET.svg?style=flat-square)](https://www.nuget.org/packages/MatomoDeviceDetector.NET/)
+
 ## Description
 
 The Universal Matomo Device Detection library for .NET that parses User Agents and detects devices (desktop, tablet, mobile, tv, cars, console, etc.), clients (browsers, feed readers, media players, PIMs, ...), operating systems, brands and models.
