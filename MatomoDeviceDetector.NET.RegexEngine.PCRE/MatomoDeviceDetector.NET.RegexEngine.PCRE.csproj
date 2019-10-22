@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MatomoDeviceDetectorNET.RegexEngine.PCRE</RootNamespace>
+    <ApplicationIcon>matomo-device-detector.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PCRE.NET" Version="0.10.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MatomoDeviceDetector.NET\MatomoDeviceDetector.NET.csproj" />
+  </ItemGroup>
+
+</Project>
