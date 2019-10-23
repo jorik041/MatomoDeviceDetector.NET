@@ -33,7 +33,8 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"smart display", DeviceType.DEVICE_TYPE_SMART_DISPLAY},
             {"camera", DeviceType.DEVICE_TYPE_CAMERA},
             {"portable media player", DeviceType.DEVICE_TYPE_PORTABLE_MEDIA_PAYER},
-            {"phablet", DeviceType.DEVICE_TYPE_PHABLET}
+            {"phablet", DeviceType.DEVICE_TYPE_PHABLET},
+            {"smart speaker", DeviceType.DEVICE_TYPE_SMART_SPEAKER }
         };
 
         /// <summary>

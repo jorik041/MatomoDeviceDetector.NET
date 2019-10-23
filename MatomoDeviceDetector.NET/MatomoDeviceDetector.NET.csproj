@@ -16,7 +16,7 @@
     <ApplicationIcon>matomo-device-detector.ico</ApplicationIcon>
 
     <PackageId>MatomoDeviceDetector.NET</PackageId>
-    <Version>4.4.2</Version>
+    <Version>4.4.3</Version>
     <Authors>Agile Flex Agency</Authors>
     <Company>Agile Flex Agency</Company>
   </PropertyGroup>
