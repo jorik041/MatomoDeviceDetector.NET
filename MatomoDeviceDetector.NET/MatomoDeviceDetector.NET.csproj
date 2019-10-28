@@ -11,12 +11,12 @@
     <PackageProjectUrl>https://github.com/AgileFlexAgency/MatomoDeviceDetector.NET</PackageProjectUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>4.4.2</AssemblyVersion>
+    <AssemblyVersion>4.4.4</AssemblyVersion>
     <RepositoryUrl>https://github.com/AgileFlexAgency/MatomoDeviceDetector.NET</RepositoryUrl>
     <ApplicationIcon>matomo-device-detector.ico</ApplicationIcon>
 
     <PackageId>MatomoDeviceDetector.NET</PackageId>
-    <Version>4.4.3</Version>
+    <Version>4.4.4</Version>
     <Authors>Agile Flex Agency</Authors>
     <Company>Agile Flex Agency</Company>
   </PropertyGroup>
