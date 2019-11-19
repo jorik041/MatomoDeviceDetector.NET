@@ -215,6 +215,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"WO", "wOSBrowser"},
             {"WT", "WeTab Browser"},
             {"YA", "Yandex Browser"},
+            {"YL", "Yandex Browser Lite"},
             {"XI", "Xiino"}
         };
 

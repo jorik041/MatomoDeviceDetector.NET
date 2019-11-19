@@ -91,7 +91,7 @@ MatomoDeviceDetectorSettings.RegexesDirectory = @"C:\YamlRegexsFiles\";
 
 The lists below are auto generated and updated from time to time. Some of them might not be complete.
 
-*Last update: 2019/11/18*
+*Last update: 2019/11/19*
 
 ### List of detected operating systems:
 
