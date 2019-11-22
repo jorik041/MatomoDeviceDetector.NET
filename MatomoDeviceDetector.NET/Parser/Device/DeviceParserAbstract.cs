@@ -52,6 +52,7 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"A3", "AGM"},
             {"AZ", "Ainol"},
             {"AI", "Airness"},
+            {"0A", "AIS"},
             {"AW", "Aiwa"},
             {"AK", "Akai"},
             {"AL", "Alcatel"},
