@@ -24,7 +24,8 @@ namespace MatomoDeviceDetectorNET.Parser.Client.Browser
             "KHTML",
             "NetFront",
             "Edge",
-            "NetSurf"
+            "NetSurf",
+            "Servo"
         };
 
         public EngineParser()
