@@ -58,10 +58,12 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"CM", "Chrome Mobile"},
             {"CN", "CoolNovo"},
             {"CO", "CometBird"},
+            {"CB", "COS Browser"},
             {"CP", "ChromePlus"},
             {"CR", "Chromium"},
             {"CY", "Cyberfox"},
             {"CS", "Cheshire"},
+            {"CT", "Crusta"},
             {"CU", "Cunaguaro"},
             {"CV", "Chrome Webview"},
             {"DB", "dbrowser"},
@@ -77,6 +79,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"EB", "Element Browser"},
             {"EP", "GNOME Web"},
             {"ES", "Espial TV Browser"},
+            {"FX", "Faux Browser"},
             {"F1", "Firefox Mobile iOS"},
             {"FB", "Firebird"},
             {"FD", "Fluid"},
@@ -127,6 +130,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"LX", "Lynx"},
             {"MB", "MicroB"},
             {"MC", "NCSA Mosaic"},
+            {"MZ", "Meizu Browser"},
             {"ME", "Mercury"},
             {"MF", "Mobile Safari"},
             {"MI", "Midori"},
@@ -193,6 +197,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"SL", "Sleipnir"},
             {"SN", "Snowshoe"},
             {"SO", "Sogou Mobile Browser"},
+            {"S2", "Splash"},
             {"SI", "Sputnik Browser"},
             {"SR", "Sunrise"},
             {"SP", "SuperBird"},
@@ -228,28 +233,29 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"BlackBerry Browser" , new []{"BB"}},
             {"Baidu"              , new []{"BD", "BS"}},
             {"Amiga"              , new []{"AV", "AW"}},
-            {"Chrome"             , new []{"CH", "BA", "BR", "CC", "CD", "CM", "CI", "CF", "CN", "CR", "CP", "IR", "RM", "AO", "TS", "VI", "PT", "AS", "TB", "AD"}},
-            {"Firefox"            , new []{"FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF", "CU", "TF", "QM"}},
+            {"Chrome"             , new []{"CH", "BA", "BR", "CC", "CD", "CM", "CI", "CF", "CN", "CR", "CP", "DD", "IR", "RM", "AO", "TS", "VI", "PT", "AS", "TB", "AD", "SB", "WP", "I3", "CV", "WH", "SZ", "QW", "LF", "KW", "2B", "CE", "EC", "MT", "MS", "HA", "OC", "MZ"}},
+            {"Firefox"            , new []{"FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF", "CU", "TF", "QM", "FR", "I4", "GZ", "MO", "F1", "BI"}},
             {"Internet Explorer"  , new []{"IE", "IM", "PS"}},
             {"Konqueror"          , new []{"KO"}},
             {"NetFront"           , new []{"NF"}},
             {"NetSurf"            , new []{"NE"}},
             {"Nokia Browser"      , new []{"NB", "NO", "NV", "DO"}},
-            {"Opera"              , new []{"OP", "OM", "OI", "ON", "OO"}},
-            {"Safari"             , new []{"SF", "MF"}},
+            {"Opera"              , new []{"OP", "OM", "OI", "ON", "OO", "OG", "OH", "O1"}},
+            {"Safari"             , new []{"SF", "MF", "SO"}},
             {"Sailfish Browser"   , new []{"SA"}}
         };
 
         /// <summary>
         /// Browsers that are available for mobile devices only
         /// </summary>
-        protected static string[] MobileOnlyBrowsers = { "36", "OC", "PU", "SK", "MF", "OI", "OM", "DD", "DB", "ST", "BL", "IV", "FM", "C1", "AL", "SA", "SB", "FR", "WP", "HA", "NX", "HU", "VV", "RE" };
+        protected static string[] MobileOnlyBrowsers = { "36", "OC", "PU", "SK", "MF", "OI", "OM", "DD", "DB", "ST", "BL", "IV", "FM", "C1", "AL", "SA", "SB", "FR", "WP", "HA", "NX", "HU", "VV", "RE", "CB", "MZ", "UM", "FK", "FX" };
 
         public BrowserParser()
         {
             FixtureFile = "regexes/client/browsers.yml";
             ParserName = "browser";
             regexList = GetRegexes();
+
             //regexList = regexList.Select(r =>
             //{
             //    r.Engine.Versions = r.Engine.Versions ?? new Dictionary<string, string>();
