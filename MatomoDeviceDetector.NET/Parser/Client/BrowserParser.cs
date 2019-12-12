@@ -34,11 +34,13 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"AT", "Atomic Web Browser"},
             {"AS", "Avast Secure Browser"},
             {"BA", "Beaker Browser"},
+            {"BM", "Beamrise"},
             {"BB", "BlackBerry Browser"},
             {"BD", "Baidu Browser"},
             {"BS", "Baidu Spark"},
             {"BI", "Basilisk"},
             {"BE", "Beonex"},
+            {"BH", "BlackHawk"},               
             {"BJ", "Bunjalloo"},
             {"BL", "B-Line"},
             {"BR", "Brave"},
@@ -118,6 +120,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"KM", "K-meleon"},
             {"KO", "Konqueror"},
             {"KP", "Kapiko"},
+            {"KN", "Kinza"},
             {"KW", "Kiwi"},
             {"KY", "Kylo"},
             {"KZ", "Kazehakase"},
@@ -137,6 +140,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"MO", "Mobicip"},
             {"MU", "MIUI Browser"},
             {"MS", "Mobile Silk"},
+            {"MN", "Minimo"},
             {"MT", "Mint Browser"},
             {"MX", "Maxthon"},
             {"NB", "Nokia Browser"},
@@ -163,6 +167,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"ON", "Opera Next"},
             {"OO", "Opera Touch"},
             {"OR", "Oregano"},
+            {"OY", "Origyn Web Browser"},
             {"OV", "Openwave Mobile Browser"},
             {"OW", "OmniWeb"},
             {"OT", "Otter Browser"},
@@ -191,6 +196,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"SC", "SEMC-Browser"},
             {"SE", "Sogou Explorer"},
             {"SF", "Safari"},
+            {"SW", "SalamWeb"},
             {"SH", "Shiira"},
             {"SK", "Skyfire"},
             {"SS", "Seraphic Sraf"},
@@ -213,6 +219,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"VI", "Vivaldi"},
             {"VV", "vivo Browser"},
             {"VB", "Vision Mobile Browser"},
+            {"WI", "Wear Internet Browser"},
             {"WP", "Web Explorer"},
             {"WE", "WebPositive"},
             {"WF", "Waterfox"},
@@ -233,8 +240,8 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"BlackBerry Browser" , new []{"BB"}},
             {"Baidu"              , new []{"BD", "BS"}},
             {"Amiga"              , new []{"AV", "AW"}},
-            {"Chrome"             , new []{"CH", "BA", "BR", "CC", "CD", "CM", "CI", "CF", "CN", "CR", "CP", "DD", "IR", "RM", "AO", "TS", "VI", "PT", "AS", "TB", "AD", "SB", "WP", "I3", "CV", "WH", "SZ", "QW", "LF", "KW", "2B", "CE", "EC", "MT", "MS", "HA", "OC", "MZ"}},
-            {"Firefox"            , new []{"FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF", "CU", "TF", "QM", "FR", "I4", "GZ", "MO", "F1", "BI"}},
+            {"Chrome"             , new []{"CH", "BA", "BR", "CC", "CD", "CM", "CI", "CF", "CN", "CR", "CP", "DD", "IR", "RM", "AO", "TS", "VI", "PT", "AS", "TB", "AD", "SB", "WP", "I3", "CV", "WH", "SZ", "QW", "LF", "KW", "2B", "CE", "EC", "MT", "MS", "HA", "OC", "MZ", "BM", "KN", "SW"}},
+            {"Firefox"            , new []{"FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF", "CU", "TF", "QM", "FR", "I4", "GZ", "MO", "F1", "BI", "MN", "BH"}},
             {"Internet Explorer"  , new []{"IE", "IM", "PS"}},
             {"Konqueror"          , new []{"KO"}},
             {"NetFront"           , new []{"NF"}},
@@ -248,7 +255,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
         /// <summary>
         /// Browsers that are available for mobile devices only
         /// </summary>
-        protected static string[] MobileOnlyBrowsers = { "36", "OC", "PU", "SK", "MF", "OI", "OM", "DD", "DB", "ST", "BL", "IV", "FM", "C1", "AL", "SA", "SB", "FR", "WP", "HA", "NX", "HU", "VV", "RE", "CB", "MZ", "UM", "FK", "FX" };
+        protected static string[] MobileOnlyBrowsers = { "36", "OC", "PU", "SK", "MF", "OI", "OM", "DD", "DB", "ST", "BL", "IV", "FM", "C1", "AL", "SA", "SB", "FR", "WP", "HA", "NX", "HU", "VV", "RE", "CB", "MZ", "UM", "FK", "FX", "WI", "MN" };
 
         public BrowserParser()
         {
