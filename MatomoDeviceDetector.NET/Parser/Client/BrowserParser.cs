@@ -81,6 +81,8 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"EI", "Epic"},
             {"EL", "Elinks"},
             {"EB", "Element Browser"},
+            {"EZ", "eZ Browser"},
+            {"EU", "EUI Browser"},
             {"EP", "GNOME Web"},
             {"ES", "Espial TV Browser"},
             {"FA", "Falkon"},
@@ -163,6 +165,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"OD", "Odyssey Web Browser"},
             {"OF", "Off By One"},
             {"OE", "ONE Browser"},
+            {"OX", "Opera GX"},
             {"OG", "Opera Neon"},
             {"OH", "Opera Devices"},
             {"OI", "Opera Mini"},
@@ -170,6 +173,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"OP", "Opera"},
             {"ON", "Opera Next"},
             {"OO", "Opera Touch"},
+            {"OS", "Ordissimo"},
             {"OR", "Oregano"},
             {"OY", "Origyn Web Browser"},
             {"OV", "Openwave Mobile Browser"},
@@ -212,16 +216,20 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"SI", "Sputnik Browser"},
             {"SR", "Sunrise"},
             {"SP", "SuperBird"},
+            {"SU", "Super Fast Browser"},
             {"ST", "Streamy"},
             {"SX", "Swiftfox"},
             {"SZ", "Seznam Browser"},
+            {"TO", "t-online.de Browser"},
             {"TA", "Tao Browser"},
             {"TF", "TenFourFox"},
             {"TB", "Tenta Browser"},
             {"TZ", "Tizen Browser"},
             {"TS", "TweakStyle"},
+            {"UB", "UBrowser"},
             {"UC", "UC Browser"},
             {"UM", "UC Browser Mini"},
+            {"UT", "UC Browser Turbo"},
             {"UZ", "Uzbl"},
             {"VI", "Vivaldi"},
             {"VV", "vivo Browser"},
@@ -247,14 +255,14 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"BlackBerry Browser" , new []{"BB"}},
             {"Baidu"              , new []{"BD", "BS"}},
             {"Amiga"              , new []{"AV", "AW"}},
-            {"Chrome"             , new []{"CH", "BA", "BR", "CC", "CD", "CM", "CI", "CF", "CN", "CR", "CP", "DD", "IR", "RM", "AO", "TS", "VI", "PT", "AS", "TB", "AD", "SB", "WP", "I3", "CV", "WH", "SZ", "QW", "LF", "KW", "2B", "CE", "EC", "MT", "MS", "HA", "OC", "MZ", "BM", "KN", "SW", "M1", "FA", "TA", "AH", "CL"}},
-            {"Firefox"            , new []{"FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF", "CU", "TF", "QM", "FR", "I4", "GZ", "MO", "F1", "BI", "MN", "BH"}},
+            {"Chrome"             , new []{"CH", "BA", "BR", "CC", "CD", "CM", "CI", "CF", "CN", "CR", "CP", "DD", "IR", "RM", "AO", "TS", "VI", "PT", "AS", "TB", "AD", "SB", "WP", "I3", "CV", "WH", "SZ", "QW", "LF", "KW", "2B", "CE", "EC", "MT", "MS", "HA", "OC", "MZ", "BM", "KN", "SW", "M1", "FA", "TA", "AH", "CL", "SU", "EU", "UB" }},
+            {"Firefox"            , new []{"FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF", "CU", "TF", "QM", "FR", "I4", "GZ", "MO", "F1", "BI", "MN", "BH", "TO", "OS"}},
             {"Internet Explorer"  , new []{"IE", "IM", "PS"}},
             {"Konqueror"          , new []{"KO"}},
             {"NetFront"           , new []{"NF"}},
             {"NetSurf"            , new []{"NE"}},
             {"Nokia Browser"      , new []{"NB", "NO", "NV", "DO"}},
-            {"Opera"              , new []{"OP", "OM", "OI", "ON", "OO", "OG", "OH", "O1"}},
+            {"Opera"              , new []{"OP", "OM", "OI", "ON", "OO", "OG", "OH", "O1", "OX"}},
             {"Safari"             , new []{"SF", "MF", "SO"}},
             {"Sailfish Browser"   , new []{"SA"}}
         };
@@ -262,7 +270,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
         /// <summary>
         /// Browsers that are available for mobile devices only
         /// </summary>
-        protected static string[] MobileOnlyBrowsers = { "36", "OC", "PU", "SK", "MF", "OI", "OM", "DD", "DB", "ST", "BL", "IV", "FM", "C1", "AL", "SA", "SB", "FR", "WP", "HA", "NX", "HU", "VV", "RE", "CB", "MZ", "UM", "FK", "FX", "WI", "MN", "M1", "AH" };
+        protected static string[] MobileOnlyBrowsers = { "36", "OC", "PU", "SK", "MF", "OI", "OM", "DD", "DB", "ST", "BL", "IV", "FM", "C1", "AL", "SA", "SB", "FR", "WP", "HA", "NX", "HU", "VV", "RE", "CB", "MZ", "UM", "FK", "FX", "WI", "MN", "M1", "AH", "SU", "EU", "EZ", "UT" };
 
         public BrowserParser()
         {
