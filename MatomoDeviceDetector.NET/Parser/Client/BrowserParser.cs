@@ -34,6 +34,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"AW", "Amiga Aweb"},
             {"AT", "Atomic Web Browser"},
             {"AS", "Avast Secure Browser"},
+            {"VG", "AVG Secure Browser"},
             {"BA", "Beaker Browser"},
             {"BM", "Beamrise"},
             {"BB", "BlackBerry Browser"},
@@ -41,7 +42,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"BS", "Baidu Spark"},
             {"BI", "Basilisk"},
             {"BE", "Beonex"},
-            {"BH", "BlackHawk"},               
+            {"BH", "BlackHawk"},
             {"BJ", "Bunjalloo"},
             {"BL", "B-Line"},
             {"BR", "Brave"},
@@ -72,6 +73,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"CV", "Chrome Webview"},
             {"DB", "dbrowser"},
             {"DE", "Deepnet Explorer"},
+            {"DT", "Delta Browser"},
             {"DF", "Dolphin"},
             {"DO", "Dorado"},
             {"DL", "Dooble"},
@@ -93,6 +95,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"FE", "Fennec"},
             {"FF", "Firefox"},
             {"FK", "Firefox Focus"},
+            {"FY", "Firefox Reality"},
             {"FR", "Firefox Rocket"},
             {"FL", "Flock"},
             {"FM", "Firefox Mobile"},
@@ -133,6 +136,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"LF", "LieBaoFast"},
             {"LG", "LG Browser"},
             {"LI", "Links"},
+            {"LO", "Lovense Browser"},
             {"LU", "LuaKit"},
             {"LS", "Lunascape"},
             {"LX", "Lynx"},
@@ -217,6 +221,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"SR", "Sunrise"},
             {"SP", "SuperBird"},
             {"SU", "Super Fast Browser"},
+            {"S0", "START Internet Browser"},
             {"ST", "Streamy"},
             {"SX", "Swiftfox"},
             {"SZ", "Seznam Browser"},
@@ -255,8 +260,8 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"BlackBerry Browser" , new []{"BB"}},
             {"Baidu"              , new []{"BD", "BS"}},
             {"Amiga"              , new []{"AV", "AW"}},
-            {"Chrome"             , new []{"CH", "BA", "BR", "CC", "CD", "CM", "CI", "CF", "CN", "CR", "CP", "DD", "IR", "RM", "AO", "TS", "VI", "PT", "AS", "TB", "AD", "SB", "WP", "I3", "CV", "WH", "SZ", "QW", "LF", "KW", "2B", "CE", "EC", "MT", "MS", "HA", "OC", "MZ", "BM", "KN", "SW", "M1", "FA", "TA", "AH", "CL", "SU", "EU", "UB" }},
-            {"Firefox"            , new []{"FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF", "CU", "TF", "QM", "FR", "I4", "GZ", "MO", "F1", "BI", "MN", "BH", "TO", "OS"}},
+            {"Chrome"             , new []{"CH", "BA", "BR", "CC", "CD", "CM", "CI", "CF", "CN", "CR", "CP", "DD", "IR", "RM", "AO", "TS", "VI", "PT", "AS", "TB", "AD", "SB", "WP", "I3", "CV", "WH", "SZ", "QW", "LF", "KW", "2B", "CE", "EC", "MT", "MS", "HA", "OC", "MZ", "BM", "KN", "SW", "M1", "FA", "TA", "AH", "CL", "SU", "EU", "UB", "LO", "VG" }},
+            {"Firefox"            , new []{"FF", "FE", "FM", "SX", "FB", "PX", "MB", "EI", "WF", "CU", "TF", "QM", "FR", "I4", "GZ", "MO", "F1", "BI", "MN", "BH", "TO", "OS", "FY" }},
             {"Internet Explorer"  , new []{"IE", "IM", "PS"}},
             {"Konqueror"          , new []{"KO"}},
             {"NetFront"           , new []{"NF"}},
@@ -270,7 +275,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
         /// <summary>
         /// Browsers that are available for mobile devices only
         /// </summary>
-        protected static string[] MobileOnlyBrowsers = { "36", "OC", "PU", "SK", "MF", "OI", "OM", "DD", "DB", "ST", "BL", "IV", "FM", "C1", "AL", "SA", "SB", "FR", "WP", "HA", "NX", "HU", "VV", "RE", "CB", "MZ", "UM", "FK", "FX", "WI", "MN", "M1", "AH", "SU", "EU", "EZ", "UT" };
+        protected static string[] MobileOnlyBrowsers = { "36", "OC", "PU", "SK", "MF", "OI", "OM", "DD", "DB", "ST", "BL", "IV", "FM", "C1", "AL", "SA", "SB", "FR", "WP", "HA", "NX", "HU", "VV", "RE", "CB", "MZ", "UM", "FK", "FX", "WI", "MN", "M1", "AH", "SU", "EU", "EZ", "UT", "DT", "S0" };
 
         public BrowserParser()
         {
