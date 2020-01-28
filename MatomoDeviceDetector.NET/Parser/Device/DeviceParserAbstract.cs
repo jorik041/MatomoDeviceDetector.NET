@@ -135,7 +135,6 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"C8", "Concord"},
             {"CX", "Crescent"},
             {"CV", "CVTE"},
-            {"B6", "BDF"},
             {"DA", "Danew"},
             {"DT", "Datang"},
             {"D1", "Datsun"},
