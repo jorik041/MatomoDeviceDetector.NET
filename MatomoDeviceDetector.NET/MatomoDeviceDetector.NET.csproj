@@ -5,18 +5,18 @@
     <RootNamespace>MatomoDeviceDetectorNET</RootNamespace>
     <Authors>Agile Flex Agency</Authors>
     <PackageLicenseExpression></PackageLicenseExpression>
-    <Copyright>Copyright © 2000 - 2019 by Agile Flex Agency - https://agile-flex.com</Copyright>
+    <Copyright>Copyright © 2000 - 2020 by Agile Flex Agency - https://agile-flex.com</Copyright>
     <Description>The Universal Device Detection library for .NET that parses User Agents and detects devices (desktop, tablet, mobile, tv, cars, console, etc.), clients (browsers, feed readers, media players, PIMs, ...), operating systems, brands and models. This is a port of the popular PHP device-detector library to C#. For the most part you can just follow the documentation for device-detector with no issue.</Description>
     <PackageTags>parse detection-library user-agent bot-detection mobile-detection desktop tablet mobile tv cars console standard</PackageTags>
     <PackageProjectUrl>https://github.com/AgileFlexAgency/MatomoDeviceDetector.NET</PackageProjectUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>4.5.8</AssemblyVersion>
+    <AssemblyVersion>4.5.9</AssemblyVersion>
     <RepositoryUrl>https://github.com/AgileFlexAgency/MatomoDeviceDetector.NET</RepositoryUrl>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
 
     <PackageId>MatomoDeviceDetector.NET</PackageId>
-    <Version>4.5.8</Version>
+    <Version>4.5.9</Version>
     <Authors>Agile Flex Agency</Authors>
     <Company>Agile Flex Agency</Company>
   </PropertyGroup>
