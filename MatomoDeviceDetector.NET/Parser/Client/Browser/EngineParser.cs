@@ -25,7 +25,8 @@ namespace MatomoDeviceDetectorNET.Parser.Client.Browser
             "NetFront",
             "Edge",
             "NetSurf",
-            "Servo"
+            "Servo",
+            "Goanna"
         };
 
         public EngineParser()

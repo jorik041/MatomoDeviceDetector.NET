@@ -221,6 +221,7 @@ namespace MatomoDeviceDetectorNET.Parser.Client
             {"SR", "Sunrise"},
             {"SP", "SuperBird"},
             {"SU", "Super Fast Browser"},
+            {"S3", "surf"},
             {"S0", "START Internet Browser"},
             {"ST", "Streamy"},
             {"SX", "Swiftfox"},

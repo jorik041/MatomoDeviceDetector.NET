@@ -34,7 +34,8 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"camera", DeviceType.DEVICE_TYPE_CAMERA},
             {"portable media player", DeviceType.DEVICE_TYPE_PORTABLE_MEDIA_PAYER},
             {"phablet", DeviceType.DEVICE_TYPE_PHABLET},
-            {"smart speaker", DeviceType.DEVICE_TYPE_SMART_SPEAKER }
+            {"smart speaker", DeviceType.DEVICE_TYPE_SMART_SPEAKER },
+            {"wearable", DeviceType.DEVICE_TYPE_WEARABLE }
         };
 
         /// <summary>
@@ -65,6 +66,7 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"A1" , "Altech UEC"},
             {"A5" , "altron"},
             {"AN" , "Arnova"},
+            {"5A", "ArmPhone"},
             {"2A" , "Atom"},
             {"KN" , "Amazon"},
             {"AG" , "AMGOO"},
@@ -180,6 +182,7 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"EI" , "Ezio"},
             {"EM" , "Eks Mobility"},
             {"EL" , "Elephone"},
+            {"L0","Element"},
             {"EG" , "Elenberg"},
             {"EP" , "Easypix"},
             {"EK" , "EKO"},
@@ -285,6 +288,7 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"JI" , "Jiayu"},
             {"JO" , "Jolla"},
             {"J5" , "Just5"},
+            {"JF" , "JFone"},
             {"KL" , "Kalley"},
             {"K4" , "Kaan"},
             {"K7" , "Kaiomy"},
@@ -450,6 +454,7 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"P3" , "PPTV"},
             {"PS" , "Positivo"},
             {"PR" , "Prestigio"},
+            {"P7" , "Protruly"},
             {"P1" , "ProScan"},
             {"PU" , "PULID"},
             {"QI" , "Qilive"},
@@ -460,6 +465,7 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"QU" , "Quechua"},
             {"QO" , "Qumo"},
             {"RA" , "Ramos"},
+            {"RZ" , "Razer"},
             {"RC" , "RCA Tablets"},
             {"RB" , "Readboy"},
             {"RI" , "Rikomagic"},
@@ -561,6 +567,7 @@ namespace MatomoDeviceDetectorNET.Parser.Device
             {"TZ" , "teXet"},
             {"UC" , "U.S. Cellular"},
             {"UH" , "Uhappy"},
+            {"U1" , "Uhans"},
             {"UG" , "Ugoos"},
             {"UL" , "Ulefone"},
             {"UO" , "Unnecto"},
